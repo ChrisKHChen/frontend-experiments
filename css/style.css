@@ -31,13 +31,29 @@ body{
 #content{
     border: 5px solid;
     display: grid;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 25%;
+    padding-right: 25%;
     justify-items: center;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
 .module{
     border: 2px solid #5174d5;
-    padding: 2em;
+    padding: 3em;
+    margin: 30px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    text-wrap: wrap;
+}
+
+img{
+    width: 300px; 
+    height: auto;
+}
+
+img:hover{
+    transform: scale(1.1);
 }
